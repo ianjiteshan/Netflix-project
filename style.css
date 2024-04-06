@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap') * {
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -27,20 +29,19 @@ body {
 }
 
 nav {
-    max-width: 70vh;
+    max-width: 60vw;
+    justify-content: space-between;
     margin: auto;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    height: 120px;
+    height: 100px;
 }
 
 nav img {
     color: red;
-    width: 200px;
+    width: 130px;
     position: relative;
     z-index: 10;
-
 }
 
 nav button {
@@ -49,34 +50,34 @@ nav button {
 }
 
 .hero {
-    padding: 29px;
-    font-family: "Martel Sans", sans-serif;
-    color: white;
-    position: relative;
+    font-family: 'Martel Sans', sans-serif;
     height: calc(100% - 100px);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0 30px;
+    color: white;
+    position: relative;
     gap: 23px;
+    padding: 0 30px;
 }
 
 .hero> :nth-child(1) {
+    font-family: 'Martel Sans', sans-serif;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 48px;
     text-align: center;
 }
 
 .hero> :nth-child(2) {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
 }
 
 .hero> :nth-child(3) {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -91,7 +92,7 @@ nav button {
     padding: 3px 8px;
     font-weight: 400;
     color: white;
-    background-color: transparent;
+    background-color: rgba(248, 243, 243, 0.021);
     border-radius: 4px;
     border: 1px solid white;
     cursor: pointer;
@@ -122,7 +123,7 @@ nav button {
 .main input {
     padding: 7px 101px 8px 14px;
     color: white;
-    font-size: 12px;
+    font-size: 15px;
     border-radius: 4px;
     background-color: rgba(23, 23, 23, 0.7);
     border: 1px solid rgba(246, 238, 238, 0.5);
